@@ -1,0 +1,9 @@
+Configuration/GenProduction/python/fragmentM1000ctau0p1.py \
+--python_filename GENSIM-M1000ctau0p1.py \
+--eventcontent RAWSIM \
+--customise Configuration/DataProcessing/Utils.addMonitoring \
+--datatier GEN-SIM --fileout file:test.root \
+--conditions 130X_mcRun3_2023_realistic_postBPix_v2 
+--beamspot Realistic25ns13p6TeVEarly2023Collision \
+--step GEN,SIM --geometry DB:Extended --era Run3_2023 \
+--no_exec --mc -n 100
