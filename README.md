@@ -2,7 +2,7 @@
 Scripts for CRAB private production of Run2Summer23 samples
 
 - Use `CMSSW_13_0_14`
-- Put the fragments in the `step1/fragments` in `$CMSSW_BASE/src/Configuration/GenProduction/python/`.
+- Put the fragments in the `step1/fragments/` in `$CMSSW_BASE/src/Configuration/GenProduction/python/`.
 - Do `scram b; scram b python` from `$CMSSW_BASE/src` to compile the fragments
 - Use `step1/cmsDriver.py`, together with the lines in `cmsDriver.txt`, to generate the config file for step1
 - Use `step1/crabConfig.py` to submit CRAB jobs for that config file. The script tries to be a bit smart about file naming, but it may fail; fix it if it happens.
